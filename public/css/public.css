@@ -1,0 +1,35 @@
+/**
+ * All of the CSS for your public-facing functionality should be included in this file.
+ */
+
+.nova-container {
+  position: relative;
+}
+
+.nova-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.nova-column {
+  flex: auto;
+  box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.5);
+  margin: 0;
+  padding: 0;
+}
+
+.nova-container .info {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  border: 2px solid #f1f1f1;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px #111;
+}
